@@ -1,0 +1,39 @@
+name: Deploy Hexo to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # 触发工作流的分支（根据你的仓库默认分支调整）
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 允许工作流写入仓库
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true  # 如果使用了 Git 子模块（如主题），请启用
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'  # 推荐使用 Node.js LTS 版本
+
+      - name: Install dependencies
+        run: |
+          npm install -g hexo-cli
+          npm install
+
+      - name: Generate static files
+        run: |
+          hexo clean
+          hexo generate
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          hexo deploy
