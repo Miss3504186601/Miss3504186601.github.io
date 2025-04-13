@@ -3,13 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Miss
+subtitle: 'Love, romantic and art.'
+description: '在追逐理想的路途中，我会有怎样的故事呢？'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+  - love, romantic, art, free...
+  - security
+  - infj
+author: Miss Wang
+language: zh
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
