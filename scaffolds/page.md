@@ -1,12 +1,19 @@
 ---
 title: {{ title }}
 date: {{ date }}
-comments: true
-categories:
-  - art
-  - computer
-  - [love, free]
-tags:
-  - painting
-  - music
+updated: 
+type: 
+comments: 
+description: 
+keywords: 
+top _img: 
+mathjax: 
+katex: 
+aside: 
+aplayer: 
+highlight_ shrink: 
+random: 
+limit: 
+  type: 
+  value:
 ---
