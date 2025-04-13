@@ -1,0 +1,45 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]  # 只在 main 分支推送时触发
+  workflow_dispatch:      # 允许手动触发
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # 允许写入 GitHub Pages
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # 如果使用子模块（如 Hugo 主题）
+
+      # --- 构建步骤（根据你的项目修改）---
+      # 如果是 Node.js 项目（如 Hexo/React/Vue）
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build  # 替换成你的构建命令（如 Hexo: `hexo generate`）
+
+      # --- 部署到 GitHub Pages ---
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public  # 替换成你的构建输出目录（如 React: ./build）
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
