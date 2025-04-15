@@ -172,7 +172,11 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
-    - 鲜花赠自己，纵马踏花想自由！
+    - Nothing is impossible.
+    - 鲜花赠自己，纵马踏花向自由！
+    - 我向往自由、浪漫与爱！
+    - 去爱，去生活，去受伤。
+    - 重要的东西用眼睛是看不见的，要用心看。
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
 # 2: Cover on the right, info on the left
@@ -201,7 +205,7 @@ toc:
   post: true
   page: false
   number: true
-  expand: false
+  expand: true
   # Only for post
   style_simple: false
   scroll_percent: true
@@ -265,8 +269,8 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2019
-  custom_text:
+    since: 2025
+  custom_text: Hi, Just for Passion!
   # Copyright of theme and framework
   copyright: true
 
@@ -293,7 +297,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/Miss3504186601
   card_announcement:
     enable: true
     content: This is my Blog
@@ -366,17 +370,17 @@ rightside_bottom:
 
 # Conversion between Traditional and Simplified Chinese
 translate:
-  enable: false
+  enable: true
   # The text of a button
   default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
-  defaultEncoding: 2
+  defaultEncoding: 1
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: '简'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: '繁'
 
 # Read Mode
 readmode: true
@@ -396,7 +400,7 @@ darkmode:
   end:
 
 # Show scroll percent in scroll-to-top button
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -418,7 +422,7 @@ anchor:
   # Click the headline to scroll and update the anchor
   click_to_scroll: false
 
-photofigcaption: false
+photofigcaption: true
 
 copy:
   enable: true
@@ -429,7 +433,7 @@ copy:
 
 # Need to install the hexo-wordcount plugin
 wordcount:
-  enable: false
+  enable: true
   # Display the word count of the article in post meta
   post_wordcount: true
   # Display the time to read the article in post meta
@@ -453,7 +457,7 @@ busuanzi:
 math:
   # Choose: mathjax, katex
   # Leave it empty if you don't need math
-  use:
+  use: mathjax
   per_page: true
   hide_scrollbar: false
 
@@ -474,7 +478,7 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
+  use: algolia_search / local_search / docsearch
   placeholder:
 
   # Algolia Search
@@ -797,7 +801,7 @@ display_mode: light
 
 # Configuration for beautifying the content of the article
 beautify:
-  enable: false
+  enable: true
   # Specify the field to beautify (site or post)
   field: post
   # Specify the icon to be used as a prefix for the title, such as '\f0c1'
@@ -806,17 +810,19 @@ beautify:
   title_prefix_icon_color:
 
 # Global font settings
-# Don't modify the following settings unless you know how they work
+# Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global_font_size:
-  code_font_size:
-  font_family:
-  code_font_family:
+  global-font-size:
+  code-font-size:
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+
 
 # Font settings for the site title and site subtitle
+# 左上角网站名字 主页居中网站名字
 blog_title_font:
-  font_link:
-  font_family:
+  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
 
 # The setting of divider icon
 hr_icon:
@@ -828,7 +834,7 @@ hr_icon:
 # Typewriter Effect
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true
   shake: true
   mobile: false
@@ -850,7 +856,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -869,7 +875,7 @@ canvas_nest:
 
 # Mouse click effects: fireworks
 fireworks:
-  enable: false
+  enable: true
   zIndex: 9999
   mobile: false
 
@@ -897,7 +903,7 @@ clickShowText:
 # https://github.com/francoischalifour/medium-zoom
 # https://fancyapps.com/fancybox/
 # Leave it empty if you don't need lightbox
-lightbox:
+lightbox: medium_zoom
 
 # --------------------------------------
 # Tag Plugins settings
@@ -921,9 +927,9 @@ abcjs:
 # Mermaid
 # https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # Write Mermaid diagrams using code blocks
-  code_write: false
+  code_write: true
   # built-in themes: default / forest / dark / neutral
   theme:
     light: default
@@ -982,7 +988,7 @@ aplayerInject:
 # https://github.com/polonel/SnackBar
 # position: top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
   # The background color of Toast Notification in light mode and dark mode
   bg_light: '#49b1f5'
@@ -990,7 +996,7 @@ snackbar:
 
 # Instant.page
 # https://instant.page/
-instantpage: false
+instantpage: true
 
 # Lazyload
 # https://github.com/verlok/vanilla-lazyload
