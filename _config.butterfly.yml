@@ -74,13 +74,13 @@ disable_top_img: false
 default_top_img: /img/tag_img.jpg
 
 # The banner image of index page
-index_img: /img/index.jpg
+index_img: /img/群花.JPG
 
 # The banner image of archive page
-archive_img: /img/index_img.jpg
+archive_img: /img/春天的黄花.JPG
 
 # Note: tag page, not tags page
-tag_img: /img/tag_img.jpg
+tag_img: /img/凯旋门.JPG
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -88,7 +88,7 @@ tag_img: /img/tag_img.jpg
 tag_per_img:
 
 # Note: category page, not categories page
-category_img:
+category_img: /img/桃花堤亭.JPG
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -100,7 +100,7 @@ footer_img: true
 
 # Website Background
 # Can set it to color or image url
-background:
+background: /img/紫色韵味.JPG
 
 cover:
   # Disable the cover or not
@@ -108,7 +108,7 @@ cover:
   aside_enable: true
   archives_enable: true
   # When cover is not set, the default cover is displayed
-  default_cover:
+  default_cover: /img/紫色韵味.JPG
     # - xxx.jpg
 
 # Replace Broken Images
