@@ -74,13 +74,13 @@ disable_top_img: false
 default_top_img: /img/tag_img.jpg
 
 # The banner image of index page
-index_img: /img/群花.jpg
+index_img: /img/flowers.jpg
 
 # The banner image of archive page
-archive_img: /img/春天的黄花.jpg
+archive_img: /img/flower.jpg
 
 # Note: tag page, not tags page
-tag_img: /img/桃花堤亭.jpg
+tag_img: /img/tag_img.jpg
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -88,7 +88,7 @@ tag_img: /img/桃花堤亭.jpg
 tag_per_img:
 
 # Note: category page, not categories page
-category_img: /img/凯旋门.jpg
+category_img: /img/gate.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -100,7 +100,7 @@ footer_img: true
 
 # Website Background
 # Can set it to color or image url
-background: /img/紫色韵味.jpg
+background: /img/purple.jpg
 
 cover:
   # Disable the cover or not
