@@ -77,8 +77,7 @@ default_top_img: /img/tag_img.jpg
 index_img: https://cdn.jsdelivr.net/gh/Miss3504186601/blog-assets@latest/pictures/flowers.JPG
 
 # The banner image of archive page
-archive_img: https://cdn.jsdelivr.net/gh/Miss3504186601/blog-assets@latest/pictures/purple.JPG
-
+archive_img:
 # Note: tag page, not tags page
 tag_img: https://cdn.jsdelivr.net/gh/Miss3504186601/blog-assets@latest/pictures/%E7%8E%AB%E7%91%B0down.JPG
 
