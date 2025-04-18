@@ -28,6 +28,7 @@ menu:
   List||fas fa-list:
     Music: /music/ || fas fa-music
     Movie: /movies/ || fas fa-video
+    Gallery: /Gallery/ || fas fa-images
   Link: /link/ || fas fa-link
   About: /about/ || fas fa-heart
 
@@ -487,12 +488,13 @@ search:
 
   # Local Search
   local_search:
+    enable: true
     # Preload the search data when the page loads.
     preload: false
     # Show top n results per article, show all results by setting to -1
     top_n_per_article: 1
     # Unescape html strings to the readable one.
-    unescape: false
+    unescape: true
     CDN:
 
   # Docsearch
@@ -784,7 +786,7 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
