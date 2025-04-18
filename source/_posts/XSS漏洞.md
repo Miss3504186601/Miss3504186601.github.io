@@ -105,7 +105,7 @@ DOM型XSS是非持久型XSS，且不与后台服务器产生数据交互，而�
   - onblur
   - onfocus
 - javascript 伪协议。浏览器可以接受内联的 JavaScript 代码作为 URL，所以在需要指定 URL 的标签属性中，可以尝试构造
-一个 JavaScript 伪协议的 URL 来执行 JavaScript 代码。`<img src=javascript:alert(1)>
+一个 JavaScript 伪协议的 URL 来执行 JavaScript 代码。`<img src=javascript:alert(1)>`
 - 编码绕过
   - html编码。通常一个网页中可解析的总共有三种编码，每种编码都能用来代替表示字符，按解析顺序依次是“html实
 体编码”“URLcode码”“Unicode码”，在执行过程中会在HTML环境下先解析“html实体编码”和“URLcode
