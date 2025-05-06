@@ -1,3 +1,20 @@
+---
+title: SQL注入
+date: 2025-04-19 22:18:37
+tags:
+  - 命令执行
+  - 反弹shell
+  - 后端
+  - SQL语句
+categories:
+  - Web渗透
+keywords:
+  - command
+description:
+comments: true
+cover: https://cdn.jsdelivr.net/gh/Miss3504186601/blog-assets@latest/pictures/%E5%87%AF%E6%97%8B%E9%97%A8.JPG
+---
+
 # 基础知识
 
 ## 语句
