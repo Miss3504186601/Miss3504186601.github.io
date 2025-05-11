@@ -111,3 +111,7 @@ deploy:
   type: git
   repo: git@github.com:Miss3504186601/Miss3504186601.github.io.git
   branch: main
+
+markdown:
+  plugins:
+    - markdown-it-emoji
