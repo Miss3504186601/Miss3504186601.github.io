@@ -1,5 +1,5 @@
 ---
-title: #week 1
+title: week 1
 date: 2025-05-11 20:03:50
 tags:
   - weekly
