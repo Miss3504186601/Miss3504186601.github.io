@@ -1,5 +1,5 @@
 ---
-title: week 1
+title: week-1
 date: 2025-05-11 20:03:50
 tags:
   - weekly
@@ -13,9 +13,7 @@ description: 时间悄然流逝，我不在意，谁会在意呢？我希望我�
 top _img:
 comments: true
 cover: https://cdn.jsdelivr.net/gh/Miss3504186601/blog-assets@latest/pictures/4ad70caeb881b543d2fb1bb850f1fe72.jpg
-
 ---
-
 **封面简介**
 
 > 一朵池塘边的花朵，在雨天拍下你。那天不再回来，你、我也是。
@@ -47,7 +45,6 @@ cover: https://cdn.jsdelivr.net/gh/Miss3504186601/blog-assets@latest/pictures/4a
 现如今已经大二，26年的今天已经在备考研究生了。
 
 这一年时间里，我不希望自己完成多么宏伟的目标，我只希望自己能有所收获，做一些自己真正觉得有意义的事情。活得爽就完了，祝愿你活得潇洒:smirk:、放浪不羁:dash:。
-
 
 ## 最后的话:speech_balloon:
 
